@@ -1,0 +1,31 @@
+.formulario{
+    background: #2b552b;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadro{
+    background-image: url('https://imagine-public.x.ai/imagine-public/images/cb72e438-e977-41f3-b4cf-c91dd01636ea.png?cache=1');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    border-radius: 10px;
+
+    box-shadow: 2px 2px 2px 2px #212c21;
+}

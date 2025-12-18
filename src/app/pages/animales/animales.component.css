@@ -1,0 +1,76 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url('https://imagine-public.x.ai/imagine-public/images/5dfb3cf3-fdc9-4867-a209-2c7e93a6d351.png?cache=1');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+
+  display: flex;
+  padding: 35px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  text-align: left;
+  flex-direction: column;
+}
+
+/* Degradado*/
+.hero::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 300px;                  
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 255, 255, 0.8) 30%,
+    white 100%
+  );
+  pointer-events: none;           
+}
+
+
+body, app-root {
+  background-color: white;
+}
+
+.squareBusqueda{
+  overflow-x: scroll;
+
+  justify-content: space-between;
+  width: 80%;
+  height: 500px;
+  background: #418141;
+  opacity: 0.8;
+  border-radius: 15px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.squareBusqueda::-webkit-scrollbar{
+ width: 8px;
+ background-color: transparent;
+ border-radius: 20px;
+ }
+.squareBusqueda::-webkit-scrollbar:window-inactive {
+ display: none;
+ }
+.squareBusqueda::-webkit-scrollbar-thumb  {
+ background-color: #2b552b;
+ border-radius: 6px;
+
+ }
+
+ h1{
+  color: white;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}

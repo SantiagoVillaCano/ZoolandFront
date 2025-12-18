@@ -1,0 +1,58 @@
+
+header{
+    background: #408140;
+    background: linear-gradient(90deg,rgba(2, 56, 2, 1) 0%, rgba(64, 129, 64, 1) 100%);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoTitle{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.navar{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    gap: 20px;
+}
+.navar ul{
+    list-style: none;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-weight: bold;
+    text-decoration: none;
+}
+.navar ul li a{
+    text-decoration: none;
+    font-size: large;
+}
+.navar ul :hover{ 
+    cursor: pointer;
+}
+.navar button{
+    background: rgb(47, 95, 47);
+    padding: 5px;
+
+    display: flex;
+
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-weight: bold;
+    font-size: large;
+
+    border-radius: 50px;
+    border: none;
+}

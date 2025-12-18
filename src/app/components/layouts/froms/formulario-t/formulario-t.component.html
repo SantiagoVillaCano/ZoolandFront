@@ -1,0 +1,19 @@
+<form (ngSubmit)="submit()">
+  <div class="group">
+    <label>Fecha ingreso</label>
+    <input type="date" formControlName="fecha_ing" />
+  </div>
+
+  <div class="group">
+    <label>Número de personas</label>
+    <input type="number" formControlName="num_personas" (input)="calc()" />
+  </div>
+
+
+  <div class="group">
+    <label>Email</label>
+    <input type="email" formControlName="email" />
+  </div>
+
+  <button type="submit">Comprar</button>
+</form>

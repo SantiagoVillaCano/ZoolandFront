@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 100px;
+    background: rgba(2, 56, 2, 1);
+    color: rgb(240, 255, 242);
+}
+.Zooland{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+
+}
+
+
+.Horarios ul{
+    list-style: none;
+}
+.Horarios{
+    padding:  0 50px;
+    margin: 50px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.contactanos h2{
+    padding-bottom: 20px;
+}

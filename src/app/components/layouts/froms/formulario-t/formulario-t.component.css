@@ -1,0 +1,37 @@
+form {
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  background: #2f4b2f;
+  margin: 40px;
+  border-radius: 10px;
+    
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background: #487248;
+}
+
+button {
+  padding: 10px;
+  background: #1d6ef0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
